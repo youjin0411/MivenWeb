@@ -8,38 +8,28 @@
 
 body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 }
 
 .block {
-    overflow: hidden;
-    width: 140rem;
-    margin: 50px auto;
     display: flex;
-    flex-direction: row;
-    position: relative;
+    width: 60rem;
+    margin: 2rem auto;
+    margin-left: 1rem;
 }
 
 .animation {
-    width: auto;
-    height: 30rem;
-    font-size: 0px;
-}
-
-.animation div {
-    display: inline-block;
-    width: auto;
-    float: none;
-    position: relative;
-    z-index: 100;
-    padding: 0 10px;
-    -webkit-backface-visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 img {
     width: 15vw;
-    height: 18vw;
+    height: 16vw;
 }
 
 a {
