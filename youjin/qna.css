@@ -75,17 +75,17 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    row-gap: 0.3rem;
+    row-gap: 1vw;
 }
 
 .flex-itme {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1.2vw;
     background-color: #002060;
 }
