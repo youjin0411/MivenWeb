@@ -6,11 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mivenGallery</title>
-    <script src="../youjin/mivenGallery.js"></script>
     <link rel="stylesheet" href="../youjin/mivenGallery.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script>
+        $(document).ready(function() {
+            $('.animation').slick({
+                autoplay: true,
+                autoplaySpeed: 700,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+            });
+        });
+    </script>
+    <style>
+        .slick-prev:before,
+        .slick-next:before {
+            color: #444444;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,7 +79,41 @@
                     <div class="gitem">
                         <img src="../youjin/image/img19.jpg">
                     </div>
-                    <!-- cut -->
+                </div>
+            </div>
+        </div>
+
+        <div class="group">
+            <div class="title2">2022</div>
+            <div class="grid">
+                <div class="grid-item">#공모전</div>
+                <div class="grid-item">#단체사진</div>
+                <div class="grid-item">#수요모임</div>
+                <div class="grid-item">#기타모임</div>
+            </div>
+            <div class="block">
+                <div class="animation">
+                    <div class="gitem">
+                        <img src="../youjin/image/img19,20.jpg">
+                    </div>
+                    <div class="gitem">
+                        <img src="../youjin/image/miven19,20.jpg">
+                    </div>
+                    <div class="gitem">
+                        <img src="../youjin/image/miven19,20_2.jpg">
+                    </div>
+                    <div class="gitem">
+                        <img src="../youjin/image/miven19.jpg">
+                    </div>
+                    <div class="gitem">
+                        <img src="../youjin/image/play.jpg">
+                    </div>
+                    <div class="gitem">
+                        <img src="../youjin/image/miven17,18,19.jpg">
+                    </div>
+                    <div class="gitem">
+                        <img src="../youjin/image/img19.jpg">
+                    </div>
                 </div>
             </div>
         </div>

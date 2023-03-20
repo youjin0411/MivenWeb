@@ -14,15 +14,16 @@ body {
 
 .block {
     display: flex;
-    width: 60rem;
+    width: 360rem;
     margin: 2rem auto;
     margin-left: 1rem;
+    row-gap: 1.5rem;
 }
 
 .animation {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    column-gap: 0.5rem;
     flex-wrap: nowrap;
     overflow: hidden;
 }
@@ -64,6 +65,7 @@ a {
     font-size: 1.5vw;
     text-align: center;
     padding: 1vw;
+    row-gap: 1rem;
 }
 
 .item:hover {
@@ -109,4 +111,6 @@ a {
 
 .title2 {
     font-size: 2vw;
+    color: #002060;
+    font-weight: bold;
 }
