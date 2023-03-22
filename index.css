@@ -1,1 +1,99 @@
-/* 가윤 : css */
+/* 가윤 : main css*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin : 0 auto;
+    padding : 0;
+    overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#box {
+    width : 100%;
+    height : 100%;
+    float : left;
+    position : absolute;
+}
+#a {
+    width : 15%;
+    height : 100%;
+    float : left;
+    position : relative;
+    background : #002060;
+}
+#a1 {
+    width : 100%;
+    height : 20%;
+}
+#a1>img {
+    width : 100%;
+    height : 100%;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    width: 13%;
+    float: left;
+    background-color: #002060;
+    height: 100vh;
+    color: #fff;
+}
+
+#logo {
+    background-image: url('../youjin/image/logo.png');
+    width: 14vw;
+    height: 8vw;
+    background-size: cover;
+}
+
+
+.nav_text_cont {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-left: 0vw;
+}
+.item {
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 1vw;
+    row-gap: 1rem;
+}
+
+.item:hover {
+    color: #002060;
+    background-color: #fff;
+}
+
+.item:hover a {
+    color: #002060;
+}
+
+#b {
+    width : 85%;
+    height : 100%;
+    float : left;
+    position : relative;
+    background-image: url("/gayoon/images/mainbg2.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button {
+    margin-left : 60vw;
+    margin-top : 40vw;
+    z-index : 1;
+    color : white;
+    text-align: center;
+    line-height: 70px;
+    position : absolute;
+    border-radius: 10vw;
+    background-color: #002060;
+    width : 300px;
+    height : 70px;
+}
+#click {
+    color : #002060;
+    background-color: white;
+}
