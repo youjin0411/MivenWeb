@@ -97,3 +97,26 @@ a {
     color : #002060;
     background-color: white;
 }
+#clubimg {
+    width : 25vw;
+    height : 40vw;
+    background-image: url("./gayoon/images/4cut.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top : 3vw;
+    margin-left : 15vw;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#writ {
+    margin-top: 15vw;
+    margin-right: 15vw;
+}
+#club>h1 {
+    text-align : center;
+    color : #002060;
+    font-size : 2.5vw;
+    font-weight : bold;
+}
